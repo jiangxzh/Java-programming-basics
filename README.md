@@ -1,2 +1,2 @@
 # Java-programming-basics
-记录Java编程基础学习
+Java编程基础学习资料
