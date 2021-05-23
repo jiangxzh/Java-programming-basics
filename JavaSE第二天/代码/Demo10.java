@@ -1,0 +1,47 @@
+/**
+ ?????
+*/
+public class Demo10{
+	public static void main(String [] args){
+		int a  = 1;
+		a = a+1;
+		a++;
+		++a;
+		//??? ?++a,a++??????????a = a+1
+		//System.out.println(a);
+		
+		int b = 1;
+		System.out.println(++b * 3); //6 = (b+1) *3
+		// ++b ??? b=b+1
+		System.out.println(b);
+		// ++?--???? ???????
+		
+		int c = 1;
+		System.out.println(c++ * 3); //3 = c*3 ,c =c+1
+		// ++?--???? ???????????1
+		System.out.println(c); //2
+		
+		//??:???xyz??
+		int x = 10;
+		int y = 5;
+		//int z = x++ * 10 / --y;  // 25
+		//int q = x++ % 3 - --y; // -3
+		
+		int w = x++ % 3 + ++x - --y;  //1 + 12-4
+		//-3+ 11? or 12?
+		//??: ?????????????/??
+		System.out.println(x++);
+		System.out.println(x);
+		
+		
+	}
+}
+
+
+
+
+
+
+
+
+
